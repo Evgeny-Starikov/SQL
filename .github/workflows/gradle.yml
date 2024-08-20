@@ -21,7 +21,7 @@ jobs:
         run: docker-compose up &
       - name: Waiting for сontainer start
         # задаем время, необходимое для полного создания и запуска контейнера
-        run: sleep 30
+        run: sleep 60
       - name: Start SUT
         # Запускаем SUT,
         # имя файла SUT будет отличаться в каждой задаче.
